@@ -1,0 +1,7 @@
+# Task 1, level B, variant 7
+import math
+
+x = float(input("Введите x:"))
+y = (((math.acos(3*x**4)) / (math.asin(((2*x)/math.pi)))) - ((2*abs(math.tan(x))) / (math.sin(3*x)))) ** (1/3)
+
+print(f"{y:.6}")
